@@ -5,7 +5,7 @@ for (let i = 1; i <= 100; i++) {
     arr.push(i);
 }
 
-const binaryTree = (arr, searchEl) => {
+const binarySearch = (arr, searchEl) => {
     let startIdx = 0;
     let endIdx = arr.length - 1;
     let middleIdx;
@@ -35,7 +35,7 @@ const binaryTree = (arr, searchEl) => {
 }
 const startTimeBinary = performance.now()
 
-console.log(binaryTree(arr, 99));
+console.log(binarySearch(arr, 99));
 console.log('count: ', count);
 
 
